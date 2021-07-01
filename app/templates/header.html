@@ -8,7 +8,7 @@
         <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
         
         <title>
-            {% if title %} {{title}} {% else %} Telegram Index {% endif %}
+            {% if title %} {{title}} {% else %} Loki's Anime-Hub {% endif %}
         </title>
 
     </head>
@@ -18,11 +18,8 @@
 
             <header class="flex bg-green-600 font-sans justify-between  text-white mb-2 p-4 w-full sticky top-0 shadow">
 
-                <a id="host" href="/" class="text-left text-xl lg:text-2xl xl:text-3xl"></a>
-                <script> 
-                  document.getElementById("host").innerHTML = window.location.host
-                </script> 
-
+                <a id="host" href="/" class="text-left text-xl lg:text-2xl xl:text-3xl">LOKI'S ANIME-HUB</a>
+                
                 <a href="/pc" class="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">Playlist Creator</a>
                 {% if otg %}
                     <a title="On-The-Go Indexing" href="/otg" class="text-xl lg:text-2xl xl:text-3xl"> OTG Indexing </a>
